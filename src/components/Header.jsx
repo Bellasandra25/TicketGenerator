@@ -6,9 +6,9 @@ const Header = () => {
         <img src="" alt="" />
     
             <ul className='flex justify-between items-center space-x-4'>
-                <li cla><a href="http://" target="_blank" rel="noopener noreferrer">Events</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">My Tickets</a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer">About Project</a></li>
+                <li ><a href="http://" target="_blank" rel="noopener noreferrer" className='hover:underline'>Events</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer" className='hover:underline'>My Tickets</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer" className='hover:underline'>About Project</a></li>
             </ul>
 
         <button className='bg-white border-0 rounded-lg text-black p-4'>My Tickets</button>
