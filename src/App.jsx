@@ -4,6 +4,7 @@ import AttendeeDetails from "./components/AttendeeDetails";
 import GeneratedTicket from "./components/generatedTicket";
 import Header from "./components/Header";
 
+
 function App() {
   // Manage step progression (1 = select ticket, 2 = enter details, 3 = ticket)
   const [step, setStep] = useState(1);
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <Header/>
+      
       {step === 1 && <SelectTicket setStep={setStep} setUserData={setUserData} userData={userData} />}
       {step === 2 && <AttendeeDetails setStep={setStep} setUserData={setUserData} userData={userData} />}
       {step === 3 && <GeneratedTicket setStep={setStep} userData={userData} />}

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import html2canvas from "html2canvas";
 import JsBarcode from "jsbarcode";
+import Header from "./Header";
 
 const GeneratedTicket = ({ userData }) => {
   const barcodeRef = useRef(null);
@@ -29,7 +30,9 @@ const GeneratedTicket = ({ userData }) => {
   };
 
   return (
+  
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#033c46] text-white">
+      <Header/>
       <div className="bg-[#013038] p-6 rounded-lg shadow-lg text-center w-96">
         <h2 className="text-xl font-semibold mb-4">Your Ticket is Booked!</h2>
         

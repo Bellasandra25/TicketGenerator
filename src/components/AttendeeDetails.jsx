@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Header from "./Header";
 
 const AttendeeDetails = ({ setStep, setUserData, userData }) => {
   const [loading, setLoading] = useState(false);
@@ -54,6 +55,7 @@ const AttendeeDetails = ({ setStep, setUserData, userData }) => {
   };
 return(
 <div className="flex flex-col items-center justify-center min-h-screen bg-[#033c46] text-white ">
+  <Header/>
 <div className="bg-[#033c46] p-6 rounded-lg shadow-lg text-center w-96 border border-[#1a331a]">
       <h2 className="text-start mb-4">Upload Profile Photo</h2>
 

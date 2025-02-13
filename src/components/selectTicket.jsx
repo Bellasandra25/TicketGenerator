@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 const SelectTicket = ({ setStep, setUserData, userData }) => {
   const handleSelect = (ticketType) => {
@@ -8,6 +9,7 @@ const SelectTicket = ({ setStep, setUserData, userData }) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#033c46] text-white ">
+      <Header/>
       <div className="bg-[#033c46] p-6 rounded-lg shadow-lg text-center w-96 border border-[#1a331a]">
          <h2 className="block text-start">Ticket Selection</h2>
         <div className="bg-[#041f24] h-[3px]"></div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='flex justify-between items-center rounded-lg p-4 bg-transparent border border-[#1b9c98] text-white'>
+    <header className='flex justify-between items-center mt-2 p-4 bg-[#033c46] border border-[#1a331a] text-white w-[95%] rounded-lg mb-4'>
         <img src="" alt="" />
     
             <ul className='flex justify-between items-center space-x-4'>
